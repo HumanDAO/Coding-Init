@@ -5,64 +5,174 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./Mainpage/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./Mainpage/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./Mainpage/stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>The Iron Yard Coding BootCamp Experience</title>
+    <title>Front-End Design/Engineering Tools &amp; Techniques acquired from The Iron Yard Coding BootCamp Experience by robdesousa</title>
   </head>
 
   <body>
     <header>
       <div class="inner">
-        <h1>The Iron Yard Coding BootCamp Experience</h1>
+        <h1>Front-End Design/Engineering Tools &amp; Techniques acquired from The Iron Yard Coding BootCamp Experience</h1>
         <h2>curated by Rob DeSousa &amp; feedback provided by the Houston Class of Summer 2014</h2>
-        <a href="https://github.com/robdesousa/TIYP" class="button"><small>View project on</small>GitHub</a>
+        <a href="https://github.com/robdesousa/The-Iron-Yard-Experience" class="button"><small>View project on</small>GitHub</a>
       </div>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <p><a href="https://travis-ci.org/ddollar/foreman"><img src="https://travis-ci.org/ddollar/foreman.svg?branch=master" alt="Build Status"></a></p>
+          <h1>
+<a name="class-projects--instructions" class="anchor" href="#class-projects--instructions"><span class="octicon octicon-link"></span></a>Class Projects &amp; Instructions</h1>
 
-<h1>
-<a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a><a href="https://codeclimate.com/github/ddollar/foreman"><img src="https://codeclimate.com/github/ddollar/foreman.png" alt="Code Climate"></a>
-</h1>
+<h4>
+<a name="github-profile-page-of-tiy-students-using-github-api" class="anchor" href="#github-profile-page-of-tiy-students-using-github-api"><span class="octicon octicon-link"></span></a>Github Profile Page of TIY Students using Github API:</h4>
 
-<h2>
-<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started:</h2>
+<blockquote>
+<p><a href="https://robdesousa.github.com/The-Iron-Yard-Experience/Profile_Page">Profile Page Exercise</a></p>
+</blockquote>
 
-<h3>
-<a name="instructions-to-install-nodejs-via-terminal" class="anchor" href="#instructions-to-install-nodejs-via-terminal"><span class="octicon octicon-link"></span></a>Instructions to install Node.js via Terminal:</h3>
+<h4>
+<a name="semi-parallax-of-clock-stopwatch-while-changing-background-color--button-commands" class="anchor" href="#semi-parallax-of-clock-stopwatch-while-changing-background-color--button-commands"><span class="octicon octicon-link"></span></a>Semi-parallax of clock, stopWatch while changing background color + button commands:</h4>
+
+<blockquote>
+<p><a href="https://robdesousa.github.com/The-Iron-Yard-Experience/Clock_Bkgd">Clock Exercise</a></p>
+</blockquote>
+
+<h4>
+<a name="etsy-api-to-show-listings" class="anchor" href="#etsy-api-to-show-listings"><span class="octicon octicon-link"></span></a>ETSY API to show listings:</h4>
+
+<blockquote>
+<p><a href="http://tiy-api.herokuapp.com">ETSY API Exercise</a></p>
+</blockquote>
+
+<h4>
+<a name="unit-functionality-testing" class="anchor" href="#unit-functionality-testing"><span class="octicon octicon-link"></span></a>Unit-Functionality-Testing:</h4>
+
+<blockquote>
+<p><a href="https://robdesousa.github.com/The-Iron-Yard-Experience/TDD">Clock Exercise</a></p>
+</blockquote>
+
+<hr><h2>
+<a name="instruction-nodejs" class="anchor" href="#instruction-nodejs"><span class="octicon octicon-link"></span></a>Instruction Node.JS:</h2>
 
 <blockquote>
 <ol>
-<li>clone / copy the files to your computer or project folder</li>
-<li>npm init</li>
-<li>npm install</li>
-<li>node server.js</li>
+<li>clone / copy the files to project directory.</li>
+<li><code>npm init</code></li>
+<li><code>npm install</code></li>
+<li><code>node server.js</code></li>
+</ol>
+</blockquote>
+
+<h2>
+<a name="pushing-to-github-repo" class="anchor" href="#pushing-to-github-repo"><span class="octicon octicon-link"></span></a>Pushing to Github Repo:</h2>
+
+<blockquote>
+<ol>
+<li><code>mkdir &lt;name&gt;</code></li>
+<li><code>git clone &lt;url&gt;</code></li>
+<li><code>git add --all</code></li>
+<li><code>git commit -am " &lt;message&gt; "</code></li>
+<li><code>git push</code></li>
+</ol>
+</blockquote>
+
+<h2>
+<a name="branching--creating-url-from-gh-pages-in-github" class="anchor" href="#branching--creating-url-from-gh-pages-in-github"><span class="octicon octicon-link"></span></a>Branching &amp; creating url from gh-pages in Github:</h2>
+
+<blockquote>
+<ol>
+<li><code>git branch</code></li>
+<li><code>git checkout -b gh-pages</code></li>
+<li>
+<code>git merge master</code> &lt;------- if you updated master</li>
+<li><code>git push origin gh-pages</code></li>
+<li>
+<code>git checkout master</code> &lt;------- go back to master, where you make your updates to code</li>
+</ol>
+</blockquote>
+
+<h1>
+<a name="tools" class="anchor" href="#tools"><span class="octicon octicon-link"></span></a>Tools</h1>
+
+<h1></h1>
+
+<h2>
+<a name="1-class-projects" class="anchor" href="#1-class-projects"><span class="octicon octicon-link"></span></a>1. Class Projects</h2>
+
+<h4>
+<a name="github-profile-page-of-tiy-students-using-github-api-1" class="anchor" href="#github-profile-page-of-tiy-students-using-github-api-1"><span class="octicon octicon-link"></span></a>Github Profile Page of TIY Students using Github API:</h4>
+
+<blockquote>
+<p><a href="https://robdesousa.github.com/The-Iron-Yard-Experience/Profile_Page">Profile Page Exercise</a></p>
+</blockquote>
+
+<h4>
+<a name="semi-parallax-of-clock-stopwatch-while-changing-background-color--button-commands-1" class="anchor" href="#semi-parallax-of-clock-stopwatch-while-changing-background-color--button-commands-1"><span class="octicon octicon-link"></span></a>Semi-parallax of clock, stopWatch while changing background color + button commands:</h4>
+
+<blockquote>
+<p><a href="https://robdesousa.github.com/The-Iron-Yard-Experience/Clock_Bkgd">Clock Exercise</a></p>
+</blockquote>
+
+<h4>
+<a name="etsy-api-to-show-listings-1" class="anchor" href="#etsy-api-to-show-listings-1"><span class="octicon octicon-link"></span></a>ETSY API to show listings:</h4>
+
+<blockquote>
+<p><a href="http://tiy-api.herokuapp.com">ETSY API Exercise</a></p>
+</blockquote>
+
+<h4>
+<a name="unit-functionality-testing-1" class="anchor" href="#unit-functionality-testing-1"><span class="octicon octicon-link"></span></a>Unit-Functionality-Testing:</h4>
+
+<blockquote>
+<p><a href="https://robdesousa.github.com/The-Iron-Yard-Experience/TDD">Clock Exercise</a></p>
+</blockquote>
+
+<hr><h2>
+<a name="instructions-to-install-nodejs-via-terminal" class="anchor" href="#instructions-to-install-nodejs-via-terminal"><span class="octicon octicon-link"></span></a>Instructions to install Node.JS via Terminal:</h2>
+
+<blockquote>
+<ol>
+<li>clone / copy the files to local project directory.</li>
+<li><code>npm init</code></li>
+<li><code>npm install</code></li>
+<li><code>node server.js</code></li>
+</ol>
+</blockquote>
+
+<h2>
+<a name="pullingpushing-to-github-repo" class="anchor" href="#pullingpushing-to-github-repo"><span class="octicon octicon-link"></span></a>Pulling/Pushing to Github Repo:</h2>
+
+<blockquote>
+<ol>
+<li><code>mkdir &lt;name&gt;</code></li>
+<li><code>git clone &lt;url&gt;</code></li>
+<li><code>git add --all</code></li>
+<li><code>git commit -am " &lt;message&gt; "</code></li>
+<li><code>git push</code></li>
 </ol>
 </blockquote>
 
 <h3>
-<a name="rest-api-in-order-build-your-own-web-app" class="anchor" href="#rest-api-in-order-build-your-own-web-app"><span class="octicon octicon-link"></span></a>REST API in order build your own Web App:</h3>
-
-<p>We used in this project the following tools and frameworks:</p>
+<a name="creating-your-github-url-httpusernamegithubioreponameprojectname-from-the-gh-pages-branch-via-terminal" class="anchor" href="#creating-your-github-url-httpusernamegithubioreponameprojectname-from-the-gh-pages-branch-via-terminal"><span class="octicon octicon-link"></span></a>Creating your Github url <code>http:username.github.io/&lt;reponame&gt;/&lt;projectname&gt;/</code> from the gh-pages branch via Terminal:</h3>
 
 <blockquote>
-<ul>
-<li>Node Server.js</li>
-<li>Routing</li>
-<li>MVC (Model View Controller)</li>
-<li>Heroku App Server</li>
-<li>Lodash</li>
-<li>Temp DB</li>
-</ul>
+<ol>
+<li><code>git branch</code></li>
+<li><code>git checkout -b gh-pages</code></li>
+<li>
+<code>git merge master</code> &lt;------- if you updated master</li>
+<li><code>git push origin gh-pages</code></li>
+<li>
+<code>git checkout master</code> &lt;------- go back to master, where you make your updates to code</li>
+</ol>
 </blockquote>
 
 <h3>
@@ -86,60 +196,31 @@
 <code>git push heroku master</code> \ Finally push your code repo up to Heroku (yes it can be pushed to Github OR Heroku!) </li>
 <li> Anytime you want to push to the same heroku server, you only need to repeat <strong>step 6</strong>.</li>
 </ol>
+<p><a href="https://travis-ci.org/ddollar/foreman"><img src="https://travis-ci.org/ddollar/foreman.svg?branch=master" alt="Build Status"></a></p>
+
+<h1>
+<a name="-1" class="anchor" href="#-1"><span class="octicon octicon-link"></span></a><a href="https://codeclimate.com/github/ddollar/foreman"><img src="https://codeclimate.com/github/ddollar/foreman.png" alt="Code Climate"></a>
+</h1>
 </blockquote>
-
-<h2>
-<a name="projects-we-have-been-working-on-since-the-start-of-the-tiy-summer-program" class="anchor" href="#projects-we-have-been-working-on-since-the-start-of-the-tiy-summer-program"><span class="octicon octicon-link"></span></a>Project's we have been working on since the start of the TIY Summer Program.</h2>
-
-<p>Profile Page using Github API:</p>
-
-<blockquote>
-<p><a href="https://robdesousa.github.com/TIYP/HW/profile_page.html">https://robdesousa.github.com/TIYP/HW/profile_page.html</a></p>
-</blockquote>
-
-<p>StopWatch using semi-parallax + Button commands:</p>
-
-<blockquote>
-<p><a href="https://robdesousa.github.com/TIYP/HW/clock.html">https://robdesousa.github.com/TIYP/HW/clock.html</a></p>
-</blockquote>
-
-<h2>
-<a name="tools--techniques" class="anchor" href="#tools--techniques"><span class="octicon octicon-link"></span></a>Tools &amp; Techniques</h2>
-
-<p>During the last 6 weeks of the TIY immersive 'Front-End Design/Engineering Course', we have learnt the following the tools &amp; techniques:</p>
 
 <h3>
-<a name="tools" class="anchor" href="#tools"><span class="octicon octicon-link"></span></a>Tools:</h3>
+<a name="rest-api-in-order-build-your-own-web-app" class="anchor" href="#rest-api-in-order-build-your-own-web-app"><span class="octicon octicon-link"></span></a>REST API in order build your own Web App:</h3>
+
+<p>We used in the ETSY-API project the following tools, JS libraries and frameworks:</p>
 
 <blockquote>
 <ul>
-<li>Sublime Text: Code Editor</li>
-<li>HTML &amp; CSS: Structure and Styling</li>
-<li>JavaScript: Behaviour</li>
+<li>Node Server.js</li>
 <li>Routing</li>
-<li>REST API</li>
-<li>Node.js</li>
+<li>JQuery &amp; JSON</li>
+<li>MVC (Model View Controller)</li>
 <li>Heroku App Server</li>
+<li>Lodash</li>
+<li>Temp DB</li>
 </ul>
 </blockquote>
 
-<h3>
-<a name="techiques" class="anchor" href="#techiques"><span class="octicon octicon-link"></span></a>Techiques:</h3>
-
-<blockquote>
-<p>*Responsive Design</p>
-</blockquote>
-
-<hr><pre><code>function(x){
-var x = 1;
-    x = x + 2;
-}
-</code></pre>
-
-<h1>
-<a name="test" class="anchor" href="#test"><span class="octicon octicon-link"></span></a>Test</h1>
-
-<p>Manage applications</p>
+<hr><p>Manage applications</p>
 
 <table>
 <tr>
@@ -170,16 +251,16 @@ var x = 1;
         </section>
 
         <aside id="sidebar">
-          <a href="https://github.com/robdesousa/TIYP/zipball/master" class="button">
+          <a href="https://github.com/robdesousa/The-Iron-Yard-Experience/zipball/master" class="button">
             <small>Download</small>
             .zip file
           </a>
-          <a href="https://github.com/robdesousa/TIYP/tarball/master" class="button">
+          <a href="https://github.com/robdesousa/The-Iron-Yard-Experience/tarball/master" class="button">
             <small>Download</small>
             .tar.gz file
           </a>
 
-          <p class="repo-owner"><a href="https://github.com/robdesousa/TIYP"></a> is maintained by <a href="https://github.com/robdesousa">robdesousa</a>.</p>
+          <p class="repo-owner"><a href="https://github.com/robdesousa/The-Iron-Yard-Experience"></a> is maintained by <a href="https://github.com/robdesousa">robdesousa</a>.</p>
 
           <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
         </aside>
