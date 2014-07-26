@@ -1,0 +1,26 @@
+{
+  "name": "Parallaxin-Node-Stuff",
+  "version": "0.0.0",
+  "description": "derp WAT",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.6.1",
+    "method-override": "^2.1.1",
+    "myth": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TIY-Houston-Q3-Front-End/Parallaxin-Node-Stuff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIY-Houston-Q3-Front-End/Parallaxin-Node-Stuff/issues"
+  },
+  "homepage": "https://github.com/TIY-Houston-Q3-Front-End/Parallaxin-Node-Stuff"
+}

@@ -1,0 +1,109 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+  background: -webkit-linear-gradient(top, #d3c3f8 0%, #0a031c 100%) no-repeat;
+  background-size: cover;
+  height: 625px;
+}
+
+.Card {
+	position: relative;
+	max-width: 350px;
+	/*border: 1px solid darkgrey;*/
+	border-radius: 5px;
+	/*background-color: #2e2e2e;*/
+	font-family: Helvetica, serif;
+	font-size: 1em;
+	margin:50px auto;
+	padding: 20px;
+}
+
+.Images{
+	position: relative;
+	min-height: 250px;
+	overflow: hidden;
+/*	display: inline-block;*/
+	max-width: 100%;
+	background-color: black;
+	border-radius: 50%;
+	border: 3px solid #100529;
+  	/*opacity: 0.6;*/
+
+}
+
+.Images img{
+	position: absolute;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.Card h2{
+	top: 60%;
+}
+
+.Content {
+	/*position: absolute;*/
+	color: transparent;
+	line-height: 1.5em;
+	padding-top: 20px;
+	margin-top: 20px;
+	border: .5px solid;
+}
+
+.Content ul{
+	list-style-type: none;
+	padding: 0 0 0 0;
+}
+
+.Content:hover {
+	position: relative;
+	color: white;
+	letter-spacing: 3px;
+	font-stretch: expanded;
+	line-height: 2em;
+	text-shadow: 5px 5px 5px black;
+	-webkit-transition: 2.5s easeout;
+	transition-duration: 2s, 3s, 1s, 1s;
+	-webkit-transform: scale(1.5);
+}
+
+.Content ul li:hover{
+	/*background: -webkit-linear-gradient(top, #d3c3f8 0%, #0a031c 100%);*/
+	width: 100%;
+	padding: 0px 10px;
+	/*text-align: center;*/
+}
+
+.Arrow img{
+	width: 50px;
+	height: 50px;
+	/*-webkit-filter: invert(100%);
+    filter: invert(100%);*/
+}
+
+.Arrow #right{
+	/*margin: 0px 0px 0px 0px;*/
+    border-radius: 3px;
+	position: absolute;
+	top: 170px;
+	right: 38.7%;
+}
+
+.Arrow #left{
+	/*margin: 0px 0px 0px 0px;*/
+    border-radius: 3px;
+	position: absolute;
+	top: 170px;
+	left: 38.7%;
+}
+
+.Arrow img:hover{
+	-webkit-filter: invert(100%);
+    filter: invert(100%);
+}

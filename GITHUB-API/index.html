@@ -1,0 +1,77 @@
+<!-- <<<<<<< HEAD -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Github Card</title>
+</head>
+<body>
+	
+<!-- ======= -->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/typeplate.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+
+	<script type="orange" id="mytemplate">
+		<!---<div class = 'dynamic'>
+			<p>Name: <%= name %> <br/>
+			Picture URL: <%= avatar_url %> <br/>
+			Github Page: <%= html_url %> <br/>
+			Hireable: <%= hireable %> <br/>
+			Location: <%= location %> <br/>
+			Followers: <%= followers %> <br/>
+			Following: <%= following %> <br/>
+			Email: <%= email %></p> <br/>
+			<div class="next_arrow"></div>
+			<div class="prev_arrow"></div>
+		</div>--->
+
+	  <div class="card">
+        <div class="main">
+            <img class="blur" src="<%= avatar_url %>">
+            <img class="small" src="<%= avatar_url %>">
+            <div class="triangle-left"></div>
+            <div class="triangle-right"></div>
+            <a href="<%= html_url %>" target="_blank">
+                <div class="button">
+                    <p>follow</p>
+                </div>
+            </a>
+            <div class="name">
+                <p>
+                    <%= name %>
+                </p>
+            </div>
+            <div class="email"></div>
+        </div>
+        <div class="info">
+            <div class="general">
+                <div class="hire"><!--<p>Ready to work! <%=hireable %>--></div>
+                <p><%=location %></p>
+            </div>
+            <div class="followers">
+                <div class="numberFollow">
+                    <%=followers %>
+                </div>
+                <p>followers</p>
+            </div>
+            <div class="following">
+                <div class="numberFollow">
+                    <%=following %>
+                </div>
+                <p>following</p>
+            </div>
+        </div>
+    </div>
+	</script>
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
+<!-- >>>>>>> f94ae8de06e095e5550f45cfc9e425a15fa3fe24 -->
+</body>
+</html>

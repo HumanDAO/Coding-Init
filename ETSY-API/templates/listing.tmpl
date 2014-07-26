@@ -1,0 +1,41 @@
+
+	<a href="#/">
+	<div class="container">
+		<div class="imgBox">
+			<img src = '<%= MainImage.url_570xN %>'>
+		</div>
+			
+			<div class="title">
+				<%= title %>
+			</div>
+			
+			<div class="price">
+				<div class="priceText">
+					<%= price %>
+				</div>
+			</div>
+		
+	</div>
+	
+		<div class="userBox">
+
+		<div class="userImg">
+			<img src = '<%= User.image_url_75x75 %>'>
+		</div>
+			
+			<div class="user">
+				<%= User.login_name %>
+				<%= user_id %>
+				
+
+			</div>
+			
+			<!-- <div class="price"> -->
+			<!-- 	<div class="priceText">
+			</div> -->
+			<!-- </div> -->
+		</div>
+	</div>
+	</a>
+
+<a class="buy" href = "<%= url %>">Buy</a>

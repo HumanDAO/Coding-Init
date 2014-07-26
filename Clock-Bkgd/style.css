@@ -1,0 +1,75 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: -webkit-linear-gradient(top, #d3c3f8 0%, #0a031c 100%) no-repeat;
+  background-size: cover;
+  height: 625px;
+}
+
+.Time {
+	position: fixed;
+	max-width: 250px;
+	text-align: center;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	background-color: #fffff;
+	font-family: Helvetica, serif;
+	font-size: 3em;
+	margin: 0px auto;
+	padding: 20px;	
+	color: black;
+	/*position: absolute;*/
+	/*height: 100%;*/
+	top: 42%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.RGB {
+	position: fixed;
+	max-width: 250px;
+	text-align: center;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	background-color: #fffff;
+	font-family: Helvetica, serif;
+	font-size: 3em;
+	margin: 0px auto;
+	padding: 20px;
+	color: red;
+	/*position: absolute;*/
+	/*height: 100%;*/
+	top: 58%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.slideu {
+    min-height: 100vh;
+    padding: 5em;
+    background-image: url("http://tutsplus.github.io/create-a-masked-background-effect-with--background-attachment--fixed--/images/minipadwhite.png");
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.slided {
+    min-height: 100vh;
+    padding: 5em;
+    background-image: url("http://tutsplus.github.io/create-a-masked-background-effect-with--background-attachment--fixed--/images/minipadwhite.png");
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.slideu:nth-of-type(2n+1) {
+    padding-left: 50%;
+    /*background-color: blue;*/
+    background-position: left center;
+}
+.slided:nth-of-type(2n) {
+    padding-right: 50%;
+    /*background-color: green;*/
+    background-position: right center;
+}

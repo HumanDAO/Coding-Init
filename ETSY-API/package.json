@@ -1,0 +1,29 @@
+{
+  "name": "ETSYAPI",
+  "version": "0.0.0",
+  "description": "derp WAT",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.6.1",
+    "method-override": "^2.1.1",
+    "myth": "^1.1.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TIY-Houston-Q3-Front-End/ETSY-API-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIY-Houston-Q3-Front-End/ETSY-API-Project/issues"
+  },
+  "homepage": "https://github.com/TIY-Houston-Q3-Front-End/ETSY-API-Project"
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' href="./stylesheets/profile_page.css">
+
+    <title>Profile</title>
+</head>
+
+
+<body>
+
+ <script type="console" id="github_profile">
+ 
+    <div class="Card">
+        <div class="Images">
+
+            <img ID="profile" src="<%= avatar_url %>">
+			<h2><a href="<%= html_url %>" target="_blank"> @ <%= login %> </a></h2>
+
+        </div>
+        <div class="Content">
+            <!-- <img src="#"> -->
+            <ul>
+                <li><strong>Full Name:</strong> <%= name %> </li>
+                <li><strong>ID No. :</strong> <%= id %> </li>
+                <li><strong>Email:</strong> <%= email %> </li>
+                <li><strong>Hireable?(true/false):</strong> <%= hireable %> </li>
+                <li><strong>Location:</strong> <%=location %> </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="Arrow">
+            <img ID="left" src="./img/1404374063_519561-057_CircledArrowLeft.png"> 
+            <img ID="right" src="./img/1404374037_519562-058_CircledArrowRight.png">
+
+    </div>
+</script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='./js/profile_page.js'></script>
+
+</body>
+
+</html>
