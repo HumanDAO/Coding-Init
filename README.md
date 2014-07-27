@@ -3,10 +3,10 @@ Class Projects & Instructions
 
 ####Github Profile Page of TIY Students using Github API:
 
->[Profile Page Exercise](https://robdesousa.github.com/The-Iron-Yard-Experience/Profile_Page)
+>[Profile Page Exercise](https://robdesousa.github.com/The-Iron-Yard-Experience/Profile-Page)
 
 ####Semi-parallax of clock, stopWatch while changing background color + button commands:
->[Clock Exercise](https://robdesousa.github.com/The-Iron-Yard-Experience/Clock_Bkgd)
+>[Clock Exercise](https://robdesousa.github.com/The-Iron-Yard-Experience/Clock-Bkgd)
 
 ####ETSY API to show listings:
 
