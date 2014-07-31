@@ -23,21 +23,3 @@ $(function() {
     }
 
 });
-
-
-
-// function slideup() {
-// //     document.getElementById('slideu').scrollIntoView();    
-// // };
-
-// var target = document.getElementById("slideu");
-// target.parentNode.scrollTop = target.offsetTop;
-// };
-// function slidedown() {
-//     document.getElementById('slided').scrollIntoView();
-//     window.setTimeout( function () { slideup(); }, 2000 );
-// };
-
-// slidedown();
-
-// });

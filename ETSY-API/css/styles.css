@@ -3,7 +3,8 @@
 }
 *, *:before, *:after {
     box-sizing: border-box;
-    transition: all .25s ease;
+  /*  transition: all .25s ease;*/
+    transition: all .6s ease;
     margin: 0;
     padding: 0;
     
@@ -14,12 +15,12 @@ body {
 }
 header {
     position: fixed;
+    text-align: center;
     z-index: 1;
     width: 100%;
-    height: 80px;
+    height: 165px;
     border: 1px solid #999;
-    background-color: #234547;
-    /*background-image: url(http://www.transparenttextures.com/patterns/honey-im-subtle.png);*/
+    background-color: black;
 }
 p {
     padding-left: 30px;
@@ -36,12 +37,12 @@ li a {
     color: #111;
 }
 li a:hover {
-    transform: scale(1.1, 4);
-    color: #EEE;
+    /*transform: scale(1.1, 4);*/
+    /*color: #EEE;*/
 }
 
 .container {
-    vertical-align: top;
+    vertical-align: center;
     position: relative;
     width: 20%;
     height: 450px;
@@ -137,27 +138,7 @@ li a:hover {
     /*letter-spacing: 1px;*/
     margin-top: 4px;
 }
-/*li {
-	display:inline-block;
-	height:80px;
-	width:24%;
-	border:2px solid black;
-	margin-top:10px;
-}
-.reviewBox {
-	width:100%;
-	height:50px;
-	margin:0 auto;
-	margin-top:10px;
-	border:2px solid green;
-}
-.listing {
-	padding: 1em;
-	position:absolute;
-	display:inline-block;
-	width:200px;
-	height:300px;
-	border:2px solid blue;
-	text-align:center;
 
-}*/
+.jumbotron{
+    height: 80px;
+}
