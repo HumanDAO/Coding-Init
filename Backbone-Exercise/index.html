@@ -4,12 +4,47 @@
     <title>Backbone!</title>
 </head>
 <body>
-    <button id="add-friend">Add Friend</button>
-    <ul id="friends-list">
+    <span><button id="add-item">Upload your Item</button></span>
+    <style>
+        div {
+            margin: 10px 10px;
+        	background-color: white;
+        	text-align: center;
+        }
+        body {
+            background-color: #bfbfbf;
+        }
+		
+		span{
+			;
+		}
+		button{
+			background-color: orange;
+			width: 80px;
+			height: 80px;
+			border-radius: 5px;
+		}
+		ul{
+			/*padding: 0 0 0 0;*/
+			/*margin: 0 0 0 0;*/
+		}
+
+		ul li{
+			width: 50%;
+			color: white;
+			font-family: Helvetica, sans-serif;
+			font-size: 2em;
+			right: 40px;
+			background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrObn59LyCUIqydMo9jTFRV3AFpkHRP19YGDT3FDydy3bhPxpO');
+		}
+
+        </style>
+    <ul id="items-list">
     </ul>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js"></script>
-    <script src="./Backbone-Practise.js"></script>
+    <script src="./Backbone-ETSY.js"></script>
+    <script src="./Add-Listings.js"></script>
 </body>
 </html>
