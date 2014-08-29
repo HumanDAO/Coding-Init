@@ -40,8 +40,6 @@ data.save()
 })
 
 
-
-
 ETSYListing = Backbone.View.extend({
     initialize: function() {
         $('body').append(this.el);

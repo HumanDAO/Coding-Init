@@ -1,4 +1,4 @@
-function EtsyClient(options) {
+ function EtsyClient(options) {
     if (!options) {
         throw new Error("Missing an options argument to EtsyClient()");
     }

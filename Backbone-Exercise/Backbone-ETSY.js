@@ -146,18 +146,18 @@ var item1 = new Item({
 ///////############################################################################################
 
 
-Person = Backbone.Model.extend({
-    urlRoot: '/collections/people',
-    initialize: function() {}
-})
+// Person = Backbone.Model.extend({
+//     urlRoot: '/collections/people',
+//     initialize: function() {}
+// })
 
-PeopleCollection = Backbone.Collection.extend({
-    url: '/collections/people',
-    model: Person
-})
+// PeopleCollection = Backbone.Collection.extend({
+//     url: '/collections/people',
+//     model: Person
+// })
 
-people = new PeopleCollection();
-people.fetch();
+// people = new PeopleCollection();
+// people.fetch();
 //Etsy discussion (Backbone vs. vanilla JS):
 
 var EtsyListingView = Backbone.View.extend({
@@ -198,6 +198,8 @@ var EtsyListing = Backbone.Model.extend({
 });
 
 var EtsyListings = Backbone.Collection.extend({
+
+    api_key: "aavnvygu0h5r52qes74x9zvo", // put your api key here!
     url: function() {
         return [
             'https://openapi.etsy.com/v2/listings/active.js?',
@@ -214,15 +216,19 @@ var EtsyListings = Backbone.Collection.extend({
             return !!listing.MainImage;
         });
     },
+
     fetchListings: function(){
         $('[role="ListingContainer"]').empty();
         this.fetch();
     },
-    model: EtsyListing, // you will create a view and a model to show in the HTML
-    api_key: "aavnvygu0h5r52qes74x9zvo", // put your api key here!
+
+    model: EtsyListing // you will create a view and a model to show in the HTML
+
 });
 
 listings = new EtsyListings();
+
+
 
 var _Router = Backbone.Router.extend({
     routes: {
